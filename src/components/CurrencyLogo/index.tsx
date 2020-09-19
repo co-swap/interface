@@ -1,4 +1,4 @@
-import { Currency, ETHER, Token } from '@uniswap/sdk'
+import { Currency, ETHER, Token } from '@co-swap/sdk'
 import React, { useState } from 'react'
 import styled from 'styled-components'
 

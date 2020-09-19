@@ -1,5 +1,5 @@
-import { ChainId, Token } from '@uniswap/sdk'
-import { TokenInfo, TokenList } from '@uniswap/token-lists'
+import { ChainId, Token } from '@co-swap/sdk'
+import { TokenInfo, TokenList } from '@co-swap/token-lists'
 import { useMemo } from 'react'
 import { useSelector } from 'react-redux'
 import { DEFAULT_TOKEN_LIST_URL } from '../../constants'
