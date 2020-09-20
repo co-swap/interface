@@ -89,6 +89,6 @@ export default createReducer(initialState, builder =>
       }
     })
     .addCase(updateVersion, state => {
-      delete state.byUrl['https://unpkg.com/@coswap/default-token-list@latest/co-swap-default.tokenlist.json']
+      delete state.byUrl['https://unpkg.com/@uniswap/default-token-list@latest/uniswap-default.tokenlist.json']
     })
 )

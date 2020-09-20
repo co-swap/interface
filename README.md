@@ -1,13 +1,13 @@
 # Uniswap Interface
 
-[![Tests](https://github.com/Uniswap/co-swap-interface/workflows/Tests/badge.svg)](https://github.com/Uniswap/co-swap-interface/actions?query=workflow%3ATests)
+[![Tests](https://github.com/Uniswap/coswap-interface/workflows/Tests/badge.svg)](https://github.com/Uniswap/coswap-interface/actions?query=workflow%3ATests)
 [![Styled With Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://prettier.io/)
 
 An open source interface for Uniswap -- a protocol for decentralized exchange of Ethereum tokens.
 
-- Website: [co-swap.org](https://co-swap.org/)
-- Interface: [app.co-swap.org](https://app.co-swap.org)
-- Docs: [co-swap.org/docs/](https://co-swap.org/docs/)
+- Website: [coswap.org](https://coswap.org/)
+- Interface: [app.coswap.org](https://app.coswap.org)
+- Docs: [coswap.org/docs/](https://coswap.org/docs/)
 - Twitter: [@UniswapProtocol](https://twitter.com/UniswapProtocol)
 - Reddit: [/r/Uniswap](https://www.reddit.com/r/Uniswap/)
 - Email: [contact@coswap.org](mailto:contact@coswap.org)
@@ -17,13 +17,13 @@ An open source interface for Uniswap -- a protocol for decentralized exchange of
 ## Accessing the Uniswap Interface
 
 To access the Uniswap Interface, use an IPFS gateway link from the
-[latest release](https://github.com/Uniswap/co-swap-interface/releases/latest), 
-or visit [app.co-swap.org](https://app.co-swap.org).
+[latest release](https://github.com/Uniswap/coswap-interface/releases/latest), 
+or visit [app.coswap.org](https://app.coswap.org).
 
 ## Listing a token
 
 Please see the
-[@coswap/default-token-list](https://github.com/co-swap/default-token-list) 
+[@coswap/default-token-list](https://github.com/coswap/default-token-list) 
 repository.
 
 ## Development
@@ -49,7 +49,7 @@ To have the interface default to a different network when a wallet is not connec
 3. Change `REACT_APP_NETWORK_URL` to e.g. `"https://{YOUR_NETWORK_ID}.infura.io/v3/{YOUR_INFURA_KEY}"` 
 
 Note that the interface only works on testnets where both 
-[Uniswap V2](https://co-swap.org/docs/v2/smart-contracts/factory/) and 
+[Uniswap V2](https://coswap.org/docs/v2/smart-contracts/factory/) and 
 [multicall](https://github.com/makerdao/multicall) are deployed.
 The interface will not work on other networks.
 
@@ -62,4 +62,4 @@ CI checks will run against all PRs.
 
 The Uniswap Interface supports swapping against, and migrating or removing liquidity from Uniswap V1. However,
 if you would like to use Uniswap V1, the Uniswap V1 interface for mainnet and testnets is accessible via IPFS gateways 
-linked from the [v1.0.0 release](https://github.com/Uniswap/co-swap-interface/releases/tag/v1.0.0).
+linked from the [v1.0.0 release](https://github.com/Uniswap/coswap-interface/releases/tag/v1.0.0).

@@ -17,9 +17,9 @@ describe('uriToHttp', () => {
     ])
   })
   it('returns ipns gateways for ipns:// urls', () => {
-    expect(uriToHttp('ipns://app.co-swap.org')).toEqual([
-      'https://cloudflare-ipfs.com/ipns/app.co-swap.org/',
-      'https://ipfs.io/ipns/app.co-swap.org/'
+    expect(uriToHttp('ipns://app.coswap.org')).toEqual([
+      'https://cloudflare-ipfs.com/ipns/app.coswap.org/',
+      'https://ipfs.io/ipns/app.coswap.org/'
     ])
   })
   it('returns empty array for invalid scheme', () => {
