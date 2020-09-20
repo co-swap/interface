@@ -14,7 +14,7 @@ import {
   Trade,
   TradeType,
   WETH
-} from '@co-swap/sdk'
+} from '@coswap/sdk'
 import { useMemo } from 'react'
 import { useActiveWeb3React } from '../hooks'
 import { useAllTokens } from '../hooks/Tokens'

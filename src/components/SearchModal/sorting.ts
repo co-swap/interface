@@ -1,4 +1,4 @@
-import { Token, TokenAmount, WETH } from '@co-swap/sdk'
+import { Token, TokenAmount, WETH } from '@coswap/sdk'
 import { useMemo } from 'react'
 import { useActiveWeb3React } from '../../hooks'
 import { useAllTokenBalances } from '../../state/wallet/hooks'

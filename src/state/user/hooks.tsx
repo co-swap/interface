@@ -1,4 +1,4 @@
-import { ChainId, Pair, Token, Currency } from '@co-swap/sdk'
+import { ChainId, Pair, Token, Currency } from '@coswap/sdk'
 import flatMap from 'lodash.flatmap'
 import { useCallback, useMemo } from 'react'
 import { shallowEqual, useDispatch, useSelector } from 'react-redux'

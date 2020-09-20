@@ -10,7 +10,7 @@ An open source interface for Uniswap -- a protocol for decentralized exchange of
 - Docs: [co-swap.org/docs/](https://co-swap.org/docs/)
 - Twitter: [@UniswapProtocol](https://twitter.com/UniswapProtocol)
 - Reddit: [/r/Uniswap](https://www.reddit.com/r/Uniswap/)
-- Email: [contact@co-swap.org](mailto:contact@co-swap.org)
+- Email: [contact@coswap.org](mailto:contact@coswap.org)
 - Discord: [Uniswap](https://discord.gg/Y7TF6QA)
 - Whitepaper: [Link](https://hackmd.io/C-DvwDSfSxuh-Gd4WKE_ig)
 
@@ -23,7 +23,7 @@ or visit [app.co-swap.org](https://app.co-swap.org).
 ## Listing a token
 
 Please see the
-[@co-swap/default-token-list](https://github.com/co-swap/default-token-list) 
+[@coswap/default-token-list](https://github.com/co-swap/default-token-list) 
 repository.
 
 ## Development

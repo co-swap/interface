@@ -1,4 +1,4 @@
-import { Currency, Token } from '@co-swap/sdk'
+import { Currency, Token } from '@coswap/sdk'
 import { transparentize } from 'polished'
 import React, { useMemo } from 'react'
 import styled from 'styled-components'

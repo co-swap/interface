@@ -1,4 +1,4 @@
-import { Currency, ETHER, Token } from '@co-swap/sdk'
+import { Currency, ETHER, Token } from '@coswap/sdk'
 
 export function currencyId(currency: Currency): string {
   if (currency === ETHER) return 'ETH'

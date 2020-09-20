@@ -1,6 +1,6 @@
 import { createReducer } from '@reduxjs/toolkit'
-import { getVersionUpgrade, VersionUpgrade } from '@co-swap/token-lists'
-import { TokenList } from '@co-swap/token-lists/dist/types'
+import { getVersionUpgrade, VersionUpgrade } from '@coswap/token-lists'
+import { TokenList } from '@coswap/token-lists/dist/types'
 import { updateVersion } from '../user/actions'
 import { acceptListUpdate, addList, fetchTokenList } from './actions'
 
@@ -89,6 +89,6 @@ export default createReducer(initialState, builder =>
       }
     })
     .addCase(updateVersion, state => {
-      delete state.byUrl['https://unpkg.com/@co-swap/default-token-list@latest/co-swap-default.tokenlist.json']
+      delete state.byUrl['https://unpkg.com/@coswap/default-token-list@latest/co-swap-default.tokenlist.json']
     })
 )

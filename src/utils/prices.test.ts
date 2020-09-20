@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Pair, Route, Token, TokenAmount, Trade, TradeType } from '@co-swap/sdk'
+import { ChainId, JSBI, Pair, Route, Token, TokenAmount, Trade, TradeType } from '@coswap/sdk'
 import { computeTradePriceBreakdown } from './prices'
 
 describe('prices', () => {
